@@ -1,0 +1,24 @@
+# 🐞 Relatório de Bugs: Gemini Chat (Mobile Web/App)
+
+## Bug 003: Sobreposição de Elemento Visual (Overlay Issue)
+**Severidade:** Baixa (Visual/Cosmético)
+**Prioridade:** Média
+
+### Descrição
+Durante a interação no chat, um elemento gráfico (balão de carregamento/sugestão) permanece fixo na tela, sobrepondo o conteúdo de texto da resposta gerada. Isso prejudica a leitura e a estética da interface.
+
+### Passos para Reproduzir
+1. Abrir o chat do Gemini no dispositivo móvel.
+2. Realizar uma pergunta que gere uma resposta longa (ex: "Aurores de Harry Potter").
+3. Observar o comportamento dos elementos visuais enquanto o texto é renderizado ou ao rolar a página.
+
+### Resultado Esperado
+Elementos de carregamento ou sugestão devem desaparecer após a conclusão da ação ou serem posicionados de forma a não obstruir o conteúdo principal.
+
+### Resultado Atual
+O elemento branco (overlay) fica "preso" sobre as linhas de texto.
+
+### Ambiente de Teste
+- **Aparelho:** Motorola G54
+- **SO:** Android 15
+- **Navegador/App:** Google App / Chrome Mobile
