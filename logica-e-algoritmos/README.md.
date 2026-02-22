@@ -1,0 +1,11 @@
+# 🧠 Lógica de Programação para QA
+Este diretório reúne exercícios práticos desenvolvidos durante o curso de **Algoritmos e Lógica da Programação**.
+
+## 🎯 Objetivo
+Demonstrar o domínio de estruturas condicionais, operadores lógicos e funções em **JavaScript**, habilidades fundamentais para a criação de scripts de testes automatizados e análise de regras de negócio.
+
+## 📝 Conteúdo
+- Validação de aprovação (Condicionais).
+- Verificação de formato de e-mail (Strings).
+- Regra de negócio para limite de idade (Constantes e Lógica).
+- 
